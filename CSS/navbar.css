@@ -7,3 +7,7 @@
     justify-content: space-between;
     
 }
+
+.itens li a:hover{
+    background-color: #cccccc;
+}
