@@ -1,0 +1,39 @@
+#lancamentos {
+    background: #5C5D8D;
+    padding-bottom: 40px;
+    color: rgb(248, 185, 185);
+}
+
+.carousel-indicators [data-bs-target] {
+    background: black;
+    width: 16px;
+    height: 16px;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 16px;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.carousel-item .row .col-md-6 p:last-child {
+    margin-bottom: 0;
+}
+
+.carousel-item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#paragrafo{
+    align-content: center;
+}
+
+.container{
+    width: 75%;
+    height: 85%;
+}

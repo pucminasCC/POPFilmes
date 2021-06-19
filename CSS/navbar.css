@@ -1,0 +1,9 @@
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #C17578 !important;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
