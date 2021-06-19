@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-filme {
+    padding: 0 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #5c5d8d;
+    color: #fff;
+    margin: 15px 0;
+    max-width: 400px;
+    border-radius: 25px;
+  }
+  
+  .card-filme p {
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  
+  .card-filme img {
+    width: 320px;
+    border-radius: 20px;
+  }
+  
+  .card-filme {
+    margin: 10px 0;
+    font-size: 2.2rem;
+  }
+  
+  .btn {
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(209, 80, 241);
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+    .card-filme {
+      margin: 0 15px;
+    }
+  }
